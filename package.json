@@ -1,0 +1,16 @@
+{
+  "name": "webpack5-library-example",
+  "version": "1.0.0",
+  "description": "A webpack5 esm library example package.",
+  "exports": "./src/index.mjs",
+  "scripts": {
+    "clean": "rimraf node_modules .pnpm-debug.log package-lock.json dist"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "type": "module"
+}

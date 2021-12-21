@@ -1,0 +1,7 @@
+lockfileVersion: 5.3
+
+specifiers:
+  webpack5-library-example: ^1.0.0
+
+dependencies:
+  webpack5-library-example: link:../../../../../../.nvm/versions/node/v16.13.1/pnpm-global/5/node_modules/webpack5-library-example

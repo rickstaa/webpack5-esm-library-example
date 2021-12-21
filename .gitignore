@@ -1,0 +1,10 @@
+# build
+dist
+node_modules
+
+# misc
+*.log
+
+# IDE
+.vscode
+*.code-workspace
