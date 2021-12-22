@@ -26,7 +26,7 @@ export default {
       },
     ],
   },
-  externals: { react: "react" },
+  externals: { react: "react", lodash: "lodash", "lodash-es": "lodash-es" },
   experiments: {
     outputModule: true,
   },

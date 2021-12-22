@@ -1,10 +1,18 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { helloWorld, util, HelloWorld } from "webpack5-library-example";
+import {
+  helloWorld,
+  util,
+  HelloWorld,
+  ldCapitalize,
+  ldEsCapitalize,
+} from "webpack5-library-example";
 
 function App() {
   helloWorld();
   console.log(util());
+  console.log(ldCapitalize("this should be capitalized."));
+  console.log(ldEsCapitalize("this should be capitalized using 'es-lodash'."));
 
   return (
     <div className="App">
