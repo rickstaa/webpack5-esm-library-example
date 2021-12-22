@@ -4,6 +4,7 @@ node_modules
 
 # misc
 *.log
+build-stats.json
 
 # IDE
 .vscode

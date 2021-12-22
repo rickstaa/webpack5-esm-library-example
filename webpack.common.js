@@ -4,9 +4,8 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default {
-  mode: "production",
   entry: "./src/index.js",
-  target: "es2020",
+  target: ["web", "es2020"],
   output: {
     module: true,
     library: { type: "module" },
