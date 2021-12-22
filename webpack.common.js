@@ -20,6 +20,10 @@ export default {
         exclude: /node_modules/,
         use: ["babel-loader"],
       },
+      {
+        test: /\.scss$/i,
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
     ],
   },
   externals: { react: "react" },
