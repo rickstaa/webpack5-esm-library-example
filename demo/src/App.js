@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { helloWorld, util } from "webpack5-library-example";
+import { helloWorld, util, HelloWorld } from "webpack5-library-example";
 
 function App() {
   helloWorld();
@@ -8,6 +8,7 @@ function App() {
 
   return (
     <div className="App">
+      <HelloWorld />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

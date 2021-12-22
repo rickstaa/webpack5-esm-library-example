@@ -2,15 +2,28 @@
   "name": "webpack5-library-example",
   "version": "1.0.0",
   "description": "A webpack5 esm library example package.",
-  "exports": "./src/index.mjs",
+  "exports": "./dist/webpack5-esm-library-example.bundle.mjs",
+  "browser": "./dist/webpack5-esm-library-example.bundle.mjs",
   "scripts": {
-    "clean": "rimraf node_modules .pnpm-debug.log package-lock.json dist"
+    "build": "webpack",
+    "build:watch": "webpack -w",
+    "clean": "rimraf node_modules .pnpm-debug.log package-lock.json dist",
+    "stats": "webpack --json build-stats.json"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2"
+    "@babel/core": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "rimraf": "^3.0.2",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
   },
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
-  "type": "module"
+  "type": "module",
+  "optionalDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
