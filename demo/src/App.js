@@ -1,11 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { helloWorld, util, HelloWorld } from "webpack5-library-example";
+import { HelloWorld } from "webpack5-library-example";
 
 function App() {
-  helloWorld();
-  console.log(util());
-
   return (
     <div className="App">
       <HelloWorld />

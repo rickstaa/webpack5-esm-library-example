@@ -1,6 +1,6 @@
 import React from "react";
 
-export const HelloWorld = () => {
+export const HelloWorld = (): JSX.Element => {
   return <div>Hello World!</div>;
 };
 

@@ -4,7 +4,7 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default {
-  entry: "./src/index.js",
+  entry: "./src/index.ts",
   target: ["web", "es2020"],
   output: {
     module: true,
@@ -16,11 +16,14 @@ export default {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.tsx?$/,
+        use: "ts-loader",
         exclude: /node_modules/,
-        use: ["babel-loader"],
       },
     ],
+  },
+  resolve: {
+    extensions: [".tsx", ".ts", ".js"],
   },
   externals: { react: "react" },
   experiments: {
