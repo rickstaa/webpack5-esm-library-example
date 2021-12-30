@@ -7,6 +7,10 @@ This is a small example repo on how to bundle a ESM library using webpack5. It w
 -   [webpack-react-css](https://github.com/rickstaa/webpack5-esm-library-example/tree/webpack-react-css): Similar to the branch above but now we also style the React component using [Sass](https://sass-lang.com/) files.
 -   [webpack-react-css-lodash-external](https://github.com/rickstaa/webpack5-esm-library-example/tree/webpack-react-css-lodash-external): Similar to the branch but now we specify lodash as a external dependency.
 -   [webpack-react-css-lodash-external-bundle-analyzer](https://github.com/rickstaa/webpack5-esm-library-example/tree/webpack-react-css-lodash-external-bundle-analyzer): Similar to the branch but now we also included a way to inspect the bundle using the [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer).
+-   [webpack-react-dev-server](https://github.com/rickstaa/webpack5-esm-library-example/tree/webpack-react-dev-server): Same as `webpack-react` but now also includes the use of the webpack dev server.
+-   [webpack-react-jsx-transform](https://github.com/rickstaa/webpack5-esm-library-example/tree//webpack-react-jsx-transform): Similar to above but now we use the new [jsx-transform](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html).
+-   [webpack-react-jsx-transform-ejected](https://github.com/rickstaa/webpack5-esm-library-example/tree/webpack-react-jsx-transform-ejected): Similar to above but now we use also ejected the demo project.
+-   [webpack-react-ts](https://github.com/rickstaa/webpack5-esm-library-example/tree/webpack-react-ts): Similar to `webpack-react` but now the js code has been converted to ts.
 
 ## How to test out this example
 
